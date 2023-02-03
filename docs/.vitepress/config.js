@@ -9,6 +9,7 @@ module.exports = {
   description: "Life is short, Keep it simple.",
   head: [["link", { rel: "icon", type: "image/svg+xml", href: "/logo.svg" }]],
   base: base,
+  outDir: "../dist/",
   lastUpdated: true,
   themeConfig: {
     nav,
