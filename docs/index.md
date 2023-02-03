@@ -7,7 +7,7 @@ titleTemplate: 使用 Vitepress 搭建组件库文档站点。
 hero:
   name: Vitepress
   text: 使用 Vitepress 搭建组件库文档站点。
-  tagline: 基于 vitepress-theme-demoblock 插件来实现 Vue 组件的支持。
+  tagline: Vite 需要 Node.js 版本 14.18+，16+。然而，有些模板需要依赖更高的 Node 版本才能正常运行，当你的包管理器发出警告时，请注意升级你的 Node 版本。
   image:
     src: /logo.svg
     alt: vitepress-theme-demoblock  

@@ -4,7 +4,6 @@ title Javascript 进阶
 
 ## event loop
 
-![event-loop](/public/event-loop.gif)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如图所示，浏览器V8引擎遇到同步任务会直接进入<p color =#33CC33 bgcolor=#33CC33 size = 4 face = "华文新魏">调用栈</p>执行，遇到异步交给由浏览器的Web Apis来执行，执行完之后将回调添加到<p color =#33CC33 bgcolor=#33CC33 size = 4 face = "华文新魏">调用队列(任务队列)</p>，等调用栈的任务清空后执行调用队列事件，来实现 event loop。
 
