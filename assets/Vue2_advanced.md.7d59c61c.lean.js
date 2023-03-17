@@ -1,1 +1,0 @@
-import{o as e,c as a,b as i}from"./app.9032fc35.js";const t='{"title":"nextTick","description":"","frontmatter":"进阶 基础","headers":[{"level":2,"title":"nextTick","slug":"nexttick"}],"relativePath":"Vue2/advanced.md","lastUpdated":1669195240845}',r={},h=i('',16);r.render=function(i,t,r,l,d,c){return e(),a("div",null,[h])};export default r;export{t as __pageData};

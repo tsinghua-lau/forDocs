@@ -1,0 +1,1 @@
+import{o as t,c as e}from"./app.8d49a5af.js";const a='{"title":"","description":"","frontmatter":"进阶 基础","relativePath":"Vue3/advanced.md","lastUpdated":1669193109209}',r={};r.render=function(a,r,d,o,n,i){return t(),e("div")};export default r;export{a as __pageData};
