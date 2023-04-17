@@ -2,7 +2,7 @@ import algolia from "./algolia";
 
 // base是我们的发布路径，默认为/，可以在环境变量中自行配置
 // const base = process.env.BASE || "/";
-const base = "/bar/";
+const base = "/dev/";
 // nav导航我们抽离在configs下面nav.js文件，方便管理
 const nav = require("./configs/nav");
 const sidebar = require("./configs/sidebar");
@@ -11,7 +11,7 @@ module.exports = {
   description: "Life is short, Keep it simple.",
   head: [["link", { rel: "icon", type: "image/svg+xml", href: "/logo.svg" }]],
   base: base,
-  outDir: "../dist/",
+  // outDir: "../dist/",
   lastUpdated: true,
   themeConfig: {
     nav,
