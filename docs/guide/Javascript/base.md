@@ -107,6 +107,7 @@ console.log(res);   // fl
 let arr=['flower','flow','flight'];
 let obj={...arr}
 console.log(obj);   // {0: 'flower', 1: 'flow', 2: 'flight'}
+// 1
 ```
 
 
