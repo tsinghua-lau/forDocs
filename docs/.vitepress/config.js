@@ -2,7 +2,7 @@ import algolia from "./algolia";
 
 // base是我们的发布路径，默认为/，可以在环境变量中自行配置
 // const base = process.env.BASE || "/";
-const base = "/dev/";
+const base = "/";
 // nav导航我们抽离在configs下面nav.js文件，方便管理
 const nav = require("./configs/nav");
 const sidebar = require("./configs/sidebar");
