@@ -1,8 +1,8 @@
 # 使用VitePress 搭建
 
-## [点击访问master](https://tsinghua-lau.github.io/)
+## [点击访问master](https://thriving-cocada-5b60f0.netlify.app/)
 
-## [点击访问dev](https://dev--classy-sawine-695210.netlify.app/)
+## [点击访问dev](https://tsinghua-lau.github.io/)
 
 
 ## master预览
