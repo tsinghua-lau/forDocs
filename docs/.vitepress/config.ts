@@ -10,7 +10,7 @@ export default defineConfig({
   description: "VitePress",
   head,
   lastUpdated: true,
-  outDir: "../dist",
+  // outDir: "../dist",
   themeConfig: {
     logo: "/images/logo.svg",
     nav,
