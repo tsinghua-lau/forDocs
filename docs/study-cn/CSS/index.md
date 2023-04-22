@@ -4,7 +4,7 @@ title 关于CSS
 
 ## 盒模型
 
-![盒模型](/public/images/web/box-sizing.png)
+![盒模型](/images/web/box-sizing.png)
 
 ## box-sizing
 
