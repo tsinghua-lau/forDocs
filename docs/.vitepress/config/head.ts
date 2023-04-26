@@ -1,23 +1,30 @@
-import { HeadConfig } from 'vitepress/dist/node'
+import { HeadConfig } from "vitepress/dist/node";
 
 export const head: HeadConfig[] | undefined = [
   [
-    'link',
-    { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+    "link",
+    { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
   ],
   [
-    'link',
+    "link",
     {
-      rel: 'icon',
-      href: '/images/favicon.ico',
-      type: 'image/vnd.microsoft.icon',
+      rel: "icon",
+      href: "/images/favicon.ico",
+      type: "image/vnd.microsoft.icon",
     },
   ],
   [
-    'meta',
+    "meta",
     {
-      name: 'author',
-      content: 'XXY',
+      name: "author",
+      content: "XXY",
+    },
+  ],
+  [
+    "link",
+    {
+      rel: "stylesheet",
+      href: "https://cdn.jsdelivr.net/npm/unoss/dist/unoss.min.css",
     },
   ],
   // [
@@ -30,4 +37,4 @@ export const head: HeadConfig[] | undefined = [
   // ],
 
   // <link rel="icon" href="http://example.com/favicon.ico" type="image/vnd.microsoft.icon">
-]
+];

@@ -8,6 +8,7 @@ import socialLinks from "./link";
 export default defineConfig({
   head,
   title: "ForDocs",
+  clientAppEnhanceFiles: ["./config/enhanceApp.ts"],
   description: "VitePress",
   themeConfig: {
     nav,
@@ -15,6 +16,7 @@ export default defineConfig({
     algolia,
     socialLinks,
     outlineTitle: "本页目录",
+
     logo: "/images/logo.svg",
     editLink: {
       pattern:

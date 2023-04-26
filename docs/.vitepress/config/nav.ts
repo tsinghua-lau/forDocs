@@ -2,18 +2,28 @@ import { DefaultTheme } from "vitepress/dist/node";
 
 export const nav: DefaultTheme.NavItem[] = [
   {
-    text: "🔥 学习领域",
+    text: "学习领域",
     items: [
-      { text: "🧸 HTML", link: "/study-cn/HTML/" },
-      { text: "🎯 CSS", link: "/study-cn/CSS/" },
-      { text: "🎃 Javascript", link: "/study-cn/Javascript/" },
-      { text: "🔨 Vue2", link: "/study-cn/Vue2/" },
-      { text: "⚒️ Vue3", link: "/study-cn/Vue3/" },
-      { text: "🪐 Network", link: "/study-cn/Network/" },
+      { text: "🧸 HTML", link: "/studyCn/HTML/" },
+      { text: "🎯 CSS", link: "/studyCn/CSS/" },
+      { text: "🎃 Javascript", link: "/studyCn/Javascript/" },
+      { text: "🔨 Vue2", link: "/studyCn/Vue2/" },
+      { text: "⚒️ Vue3", link: "/studyCn/Vue3/" },
+      { text: "🪐 Network", link: "/studyCn/Network/" },
+    ],
+  },
+  {
+    text: "资源导航",
+    items: [{ text: "💰 学习资源", link: "/resourceNavigation/" }],
+  },
+  {
+    text: "代码片段",
+    items: [
+      { text: "Javascript", link: "/codeSnippet/Javascript/await-to-js.md" },
     ],
   },
   {
     text: "VitePress",
-    link: "/vitepress-cn/",
+    link: "/vitepressCn/",
   },
 ];
