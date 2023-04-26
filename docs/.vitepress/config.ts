@@ -25,7 +25,6 @@ export default defineConfig({
       text: "在 GitHub 上编辑此页",
     },
     // lastUpdated: true,
-    // outDir: "../dist",
     // editLinks: true,
     // outline: "deep",
     // footer: {
