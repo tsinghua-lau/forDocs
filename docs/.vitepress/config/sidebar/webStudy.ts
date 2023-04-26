@@ -36,11 +36,11 @@ export const webStudy: DefaultTheme.Sidebar | undefined = {
         },
         {
           text: "for in 和 for of",
-          link: "/studyCn/Javascript/forIn和forOf.md",
+          link: "/studyCn/Javascript/forInforOf.md",
         },
         {
           text: "暂时性死区",
-          link: "/studyCn/Javascript/暂时性死区.md",
+          link: "/studyCn/Javascript/temporaryDeadzone.md",
         },
         {
           text: "事件循环",
@@ -48,7 +48,7 @@ export const webStudy: DefaultTheme.Sidebar | undefined = {
         },
         {
           text: "常用API",
-          link: "/studyCn/Javascript/常用API.md",
+          link: "/studyCn/Javascript/CommonAPI.md",
         },
       ],
     },
@@ -82,23 +82,27 @@ export const webStudy: DefaultTheme.Sidebar | undefined = {
         },
         {
           text: "HTTP状态码",
-          link: "/studyCn/Network/HTTP状态码.md",
+          link: "/studyCn/Network/HTTPStatus.md",
+        },
+        {
+          text: "HTTP和HTTPS",
+          link: "/studyCn/Network/HTTPHTTPS.md",
         },
         {
           text: "GET和POST",
-          link: "/studyCn/Network/GET和POST.md",
+          link: "/studyCn/Network/GETPOST.md",
         },
         {
           text: "Cookkie、Session和Token",
-          link: "/studyCn/Network/Cookie、Session和token.md",
+          link: "/studyCn/Network/CookieSessionToken.md",
         },
         {
           text: "缓存机制",
-          link: "/studyCn/Network/缓存机制.md",
+          link: "/studyCn/Network/cachingMechanism.md",
         },
         {
           text: "XXS和XSRF攻击",
-          link: "/studyCn/Network/XSS和CSRF攻击.md",
+          link: "/studyCn/Network/XSSAndSRF.md",
         },
       ],
     },
