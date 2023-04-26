@@ -7,7 +7,7 @@ export const codeSnippet: DefaultTheme.Sidebar | undefined = {
       collapsible: true,
       items: [
         {
-          text: "捕获异常",
+          text: "Promise捕获异常",
           link: "/codeSnippet/Javascript/await-to-js.md",
         },
       ],
