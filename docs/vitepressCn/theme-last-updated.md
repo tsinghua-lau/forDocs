@@ -11,7 +11,7 @@ head:
 
 # Last Updated
 
-最后一条内容的更新时间会显示在页面右下角。要启用它，请将lastUpdated选项添加到您的配置中。
+最后一条内容的更新时间会显示在页面右下角。要启用它，请将lastUpdated选项添加到您的配置中。需要注意的是您必须至少有一次commit提交记录。
 
 ```ts
 export default {

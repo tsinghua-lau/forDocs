@@ -79,7 +79,7 @@ lang: en-US
 
 该数据可用于页面的其他部分，以及所有自定义主题组件。
 
-更多细节，请参考<a href="/vitepress-cn/frontmatter">Frontmatter</a>。
+更多细节，请参考<a href="/vitepressCn/frontmatter">Frontmatter</a>。
 
 ## GitHub 风格表格
 
@@ -248,7 +248,7 @@ export default {
 
 详细[语言的列表](https://github.com/shikijs/shiki/blob/main/docs/languages.md)可在 Shiki 的资源库中找到。
 
-你也可以在应用配置中自定义语法高亮主题。更多细节请参见[markdown选项](/vitepress-cn/config-app#markdown)。
+你也可以在应用配置中自定义语法高亮主题。更多细节请参见[markdown选项](/vitepressCn/config-app#markdown)。
 
 ## 代码块中的行高亮
 
@@ -330,7 +330,7 @@ export default {
 }
 ```
 
-更多详情请参考[markdown选项](/vitepress-cn/config-app.html#markdown)。
+更多详情请参考[markdown选项](/vitepressCn/config-app.html#markdown)。
 
 ## 导入代码片段
 
@@ -340,7 +340,7 @@ export default {
 <<< @/filepath
 ```
 
-同样支持[语法高亮](/vitepress-cn/markdown#代码块中的语法高亮)
+同样支持[语法高亮](/vitepressCn/markdown#代码块中的语法高亮)
 
 ```md
 <<< @/filepath{highlightLines}
@@ -468,4 +468,4 @@ module.exports = {
 }
 ```
 
-更多相关配置请参考：[App Configs](/vitepress-cn/config-app#markdown).
+更多相关配置请参考：[App Configs](/vitepressCn/config-app#markdown).

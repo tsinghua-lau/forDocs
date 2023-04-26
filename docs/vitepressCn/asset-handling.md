@@ -104,7 +104,7 @@ const { theme } = useData()
 <img :src="theme.logoPath" />
 ```
 
-在这种情况下，建议用`VitePress`提供的[`withBase` helper](/vitepress-cn/api#withBase)来包装路径。
+在这种情况下，建议用`VitePress`提供的[`withBase` helper](/vitepressCn/api#withBase)来包装路径。
 
 ```vue
 <script setup>

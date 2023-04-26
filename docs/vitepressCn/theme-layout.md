@@ -27,14 +27,14 @@ layout: doc
 
 它还提供了下面列出的`doc`特定功能。这些功能只在这个布局中启用。
 
-- [Edit Link](/vitepress-cn/theme-edit-link)
-- [Prev Next Link](/vitepress-cn/theme-pre-next-link)
+- [Edit Link](/vitepressCn/theme-edit-link)
+- [Prev Next Link](/vitepressCn/theme-pre-next-link)
 - Outline
-- [Carbon Ads](/vitepress-cn/theme-carbon-ads)
+- [Carbon Ads](/vitepressCn/theme-carbon-ads)
 
 ## Page Layout
 
-选项`Page`被当作"blank page"处理。Markdown 仍将被解析，所有的 [Markdown 扩展](/vitepress-cn/markdown)与`Doc Layout`一样工作，但它不会得到任何默认样式。
+选项`Page`被当作"blank page"处理。Markdown 仍将被解析，所有的 [Markdown 扩展](/vitepressCn/markdown)与`Doc Layout`一样工作，但它不会得到任何默认样式。
 
 Page Layout将让你在不影响 VitePress 主题的情况下自行设计所有样式。当你想创建你自己的自定义页面时，这很有用。
 
@@ -42,4 +42,4 @@ Page Layout将让你在不影响 VitePress 主题的情况下自行设计所有�
 
 ## Home Layout
 
-选项`home`将生成模板化的`Homepage`。在这个布局中，你可以设置额外的选项，如`hero`和`features`来进一步定制内容。请访问[主题：首页](/vitepress-cn/theme-home-page)以了解更多细节。
+选项`home`将生成模板化的`Homepage`。在这个布局中，你可以设置额外的选项，如`hero`和`features`来进一步定制内容。请访问[主题：首页](/vitepressCn/theme-home-page)以了解更多细节。

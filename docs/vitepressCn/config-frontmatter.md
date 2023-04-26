@@ -30,7 +30,7 @@ editLink: true
 
 - 类型：`string`
 
-页面的标题。它与[config.title](/vitepress-cn/config-app#title)相同，并覆盖了其配置。
+页面的标题。它与[config.title](/vitepressCn/config-app#title)相同，并覆盖了其配置。
 
 ```yaml
 ---
@@ -42,7 +42,7 @@ title: VitePress
 
 - 类型：`string`
 
-`title`的前缀，与[config.titleTemplate](/vitepress-cn/config-app#titletemplate)相同，并覆盖了其配置。
+`title`的前缀，与[config.titleTemplate](/vitepressCn/config-app#titletemplate)相同，并覆盖了其配置。
 
 ```yaml
 ---
@@ -55,7 +55,7 @@ titleTemplate: Vite & Vue powered static site generator.
 
 - 类型：`string`
 
-页面的描述。与[config.description](/vitepress-cn/config-app#description)相同，并覆盖了其配置。
+页面的描述。与[config.description](/vitepressCn/config-app#description)相同，并覆盖了其配置。
 
 ```yaml
 ---
@@ -93,7 +93,7 @@ type HeadConfig =
 
 - 默认值：`true`
 
-是否在当前页面显示[最后更新](/vitepress-cn/config-app#lastupdated)文本。
+是否在当前页面显示[最后更新](/vitepressCn/config-app#lastupdated)文本。
 
 ```yaml
 ---

@@ -23,14 +23,14 @@ head:
     - `children` 更换成 `items`.
     - 顶层项目目前可能不包含链接。正计划将其带回来。
 - `epo`, `repoLabel`, `docsDir`, `docsBranch`, `editLinks`, `editLinkText` 移除以支持更灵活的 api。
-    - 为了在导航中添加带有图标的 GitHub 链接，请使用[Social Links](/vitepress-cn/theme-nav#社交链接)功能。
-    - 需要"编辑此页"功能，请使用[Edit this page](/vitepress-cn/theme-edit-link)。
+    - 为了在导航中添加带有图标的 GitHub 链接，请使用[Social Links](/vitepressCn/theme-nav#社交链接)功能。
+    - 需要"编辑此页"功能，请使用[Edit this page](/vitepressCn/theme-edit-link)。
 - `lastUpdated` 拆分为`config.lastUpdated`和`themeConfig.lastUpdatedText`。
 - `carbonAds.carbon` 变成 `carbonAds.code`。
 
 
 ## Frontmatter Config
 
-- `home: true`选项已改为`layout: home`。另外，许多首页相关的设置也被修改，以提供更多的功能。详见[首页指南](/vitepress-cn/theme-home-page)。
+- `home: true`选项已改为`layout: home`。另外，许多首页相关的设置也被修改，以提供更多的功能。详见[首页指南](/vitepressCn/theme-home-page)。
 
 - `footer`选项被移至`themeConfig.footer`。

@@ -66,7 +66,7 @@ export default {
 
 - 类型：`NavItem`
 
-导航菜单项的配置。你可以在[Theme.Nav](/vitepress-cn/theme-nav)了解更多细节。
+导航菜单项的配置。你可以在[Theme.Nav](/vitepressCn/theme-nav)了解更多细节。
 
 ```js
 export default {
@@ -104,7 +104,7 @@ interface NavItemWithChildren {
 
 - 类型：`Sidebar`
 
-侧边栏的配置项，可以在[Theme Sidebar](/vitepress-cn/theme-sidebar)了解更多细节。
+侧边栏的配置项，可以在[Theme Sidebar](/vitepressCn/theme-sidebar)了解更多细节。
 
 ```js
 export default {
@@ -225,7 +225,7 @@ export interface Footer {
 
 - 类型：`EditLink`
 
-`Edit Link`让你在 Git 管理服务（如 GitHub 或 GitLab）上显示一个编辑页面的链接。通过[Theme：Edit Link](/vitepress-cn/theme-edit-link)了解更多细节。
+`Edit Link`让你在 Git 管理服务（如 GitHub 或 GitLab）上显示一个编辑页面的链接。通过[Theme：Edit Link](/vitepressCn/theme-edit-link)了解更多细节。
 
 ```js
 export default {
@@ -285,7 +285,7 @@ export interface CarbonAds {
 }
 ```
 
-通过[Theme: Carbon Ads](/vitepress-cn/theme-carbon-ads)了解更多细节。
+通过[Theme: Carbon Ads](/vitepressCn/theme-carbon-ads)了解更多细节。
 
 ## docFooter
 

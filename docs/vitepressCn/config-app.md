@@ -126,7 +126,7 @@ export default {
 
 - 默认值：`false`
 
-使用`git commit`来获取时间戳。该选项使默认主题显示页面的最后更新时间。你可以通过[themeConfig.lastUpdatedText](/vitepress-cn/config-theme#lastupdatedtext)选项自定义文本。
+使用`git commit`来获取时间戳。该选项使默认主题显示页面的最后更新时间。你可以通过[themeConfig.lastUpdatedText](/vitepressCn/config-theme#lastupdatedtext)选项自定义文本。
 
 ```js
 export default {

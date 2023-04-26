@@ -125,7 +125,7 @@ This is a .md using a custom component
 
 ### 全局组件
 
-如果组件要在文档的多个页面中使用，它们可以在主题中全局注册（或作为扩展默认 VitePress 主题的一部分）。请查看[主题指南](/vitepress-cn/theme-introduction)以了解更多信息。
+如果组件要在文档的多个页面中使用，它们可以在主题中全局注册（或作为扩展默认 VitePress 主题的一部分）。请查看[主题指南](/vitepressCn/theme-introduction)以了解更多信息。
 
 在`.vitepress/theme/index.js`中，`enhanceApp`函数接收 Vue 应用实例，因此你可以像在普通Vue 应用中那样[注册组件](https://vuejs.org/guide/components/registration.html)。
 
@@ -245,10 +245,10 @@ export default {
 
 ## 内置组件
 
-VitePress 提供`ClientOnly`和`OutboundLink`等内置 Vue 组件，请查看[API 索引](/vitepress-cn/api)以了解更多信息。
+VitePress 提供`ClientOnly`和`OutboundLink`等内置 Vue 组件，请查看[API 索引](/vitepressCn/api)以了解更多信息。
 
 参考：
-- [在-header-标签中使用组件](/vitepress-cn/using-vue.html#在-header-标签中使用组件)
+- [在-header-标签中使用组件](/vitepressCn/using-vue.html#在-header-标签中使用组件)
 
 
 ## 浏览器 API 访问限制

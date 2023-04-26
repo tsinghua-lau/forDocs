@@ -22,9 +22,9 @@ VitePress 配置的配置文件`.vitepress/config.js`，VitePress的配置都在
 └─ package.json
 ```
 
-VitePress有2种类型的配置。一种是[应用配置](/vitepress-cn/config-app)，配置网站的基本功能，如设置网站的标题，或自定义Markdown 解析器的工作方式。第二种是[主题配置](/vitepress-cn/config-theme)，用于配置网站的主题，例如，添加侧边栏，或者添加"[在GitHub上编辑此页面](/vitepress-cn/theme-edit-link)"的链接等功能。
+VitePress有2种类型的配置。一种是[应用配置](/vitepressCn/config-app)，配置网站的基本功能，如设置网站的标题，或自定义Markdown 解析器的工作方式。第二种是[主题配置](/vitepressCn/config-theme)，用于配置网站的主题，例如，添加侧边栏，或者添加"[在GitHub上编辑此页面](/vitepressCn/theme-edit-link)"的链接等功能。
 
-还有一个配置，你可以在`Frontmatter`中进行。[Frontmatter](/vitepress-cn/config-frontmatter)的配置可以覆盖`应用配置`或`主题配置`定义的全局配置。然而，有几个选项也只在`Frontmatter`中可用。
+还有一个配置，你可以在`Frontmatter`中进行。[Frontmatter](/vitepressCn/config-frontmatter)的配置可以覆盖`应用配置`或`主题配置`定义的全局配置。然而，有几个选项也只在`Frontmatter`中可用。
 
 请参考相应的配置页面以了解更多。
 

@@ -45,7 +45,7 @@ Example: If you're using Github (or GitLab) Pages and deploying to user.github.i
 :::
 
 ::: tip
-如果你的网站要在一个子目录下提供服务( https://example.com/subdir/ )，那么你必须在`docs/.vitepress/config.js`中将[base](/vitepress-cn/config-app#base)设置`为'/subdir/'`。
+如果你的网站要在一个子目录下提供服务( https://example.com/subdir/ )，那么你必须在`docs/.vitepress/config.js`中将[base](/vitepressCn/config-app#base)设置`为'/subdir/'`。
 
 例子。如果你使用Github（或GitLab）页面，并部署到`user.github.io/repo/`，那么将你的`base`设置为`/repo/`。
 :::

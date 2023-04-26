@@ -46,7 +46,7 @@ editLink: true
 ---
 ```
 
-在三条虚线之间，你可以设置[预定义的变量](/vitepress-cn/config-frontmatter)，甚至可以创建你自己的自定义变量。这些变量可以通过特殊的`$frontmatter`变量使用。
+在三条虚线之间，你可以设置[预定义的变量](/vitepressCn/config-frontmatter)，甚至可以创建你自己的自定义变量。这些变量可以通过特殊的`$frontmatter`变量使用。
 
 下面是一个例子，说明你如何在你的 Markdown 文件中使用它：
 

@@ -15,7 +15,7 @@ Nav 是显示在页面顶部的导航栏，包含网站标题、全局菜单连�
 
 ## 网站标题和 Logo
 
-默认情况下，导航是根据[config.title](/vitepress-cn/config-app#title)的值显示网站的标题。如果你想改变导航上显示的内容，你可以在`themeConfig.siteTitle`选项中定义自定义文本。
+默认情况下，导航是根据[config.title](/vitepressCn/config-app#title)的值显示网站的标题。如果你想改变导航上显示的内容，你可以在`themeConfig.siteTitle`选项中定义自定义文本。
 
 ```js
 export default {
@@ -149,4 +149,4 @@ export default {
 
 ## 社交链接
 
-参考 [socialLinks](/vitepress-cn/config-theme#socialLinks)
+参考 [socialLinks](/vitepressCn/config-theme#socialLinks)

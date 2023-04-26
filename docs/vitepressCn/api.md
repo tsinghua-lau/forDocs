@@ -55,7 +55,7 @@ const { theme } = useData()
 ```
 
 :::tip TIP
-使用[useData](/vitepress-cn/api.html#usedata) 方法读取数据时，不光可以使用 `{{}}` 来读取数据，也可以使用 `v-html`。
+使用[useData](/vitepressCn/api.html#usedata) 方法读取数据时，不光可以使用 `{{}}` 来读取数据，也可以使用 `v-html`。
 :::
 
 
@@ -86,11 +86,11 @@ interface Router {
 
 - **Type**: `(path: string) => string`
 
-将配置[base](/vitepress-cn/config-app#base)的内容添加到给定的路径上。也请看 [Base URL](/vitepress-cn/asset-handling#base-url)。
+将配置[base](/vitepressCn/config-app#base)的内容添加到给定的路径上。也请看 [Base URL](/vitepressCn/asset-handling#base-url)。
 
 ## `<Content />`
 
-`<Content />` 组件用来渲染 Markdown 的内容。在创建[自定义主题](/vitepress-cn/theme-introduction)时很有用。
+`<Content />` 组件用来渲染 Markdown 的内容。在创建[自定义主题](/vitepressCn/theme-introduction)时很有用。
 
 ## `<ClientOnly />`
 

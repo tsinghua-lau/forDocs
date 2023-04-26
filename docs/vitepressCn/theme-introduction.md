@@ -13,17 +13,17 @@ head:
 
 VitePress 自带的默认主题提供了许多开箱即用的功能。点击下面列出的链接了解更多关于每个功能的信息：
 
-- [Nav](/vitepress-cn/theme-nav)
-- [Sidebar](/vitepress-cn/theme-sidebar)
-- [Prev Next Link](/vitepress-cn/theme-pre-next-link)
-- [Edit Link](/vitepress-cn/theme-edit-link)
-- [Last Updated](/vitepress-cn/theme-last-updated)
-- [Layout](/vitepress-cn/theme-layout)
-- [Home Page](/vitepress-cn/theme-home-page)
-- [Team Page](/vitepress-cn/theme-team-page)
-- [Footer](/vitepress-cn/theme-footer)
-- [Search](/vitepress-cn/theme-search)
-- [Carbon Ads](/vitepress-cn/theme-carbon-ads)
+- [Nav](/vitepressCn/theme-nav)
+- [Sidebar](/vitepressCn/theme-sidebar)
+- [Prev Next Link](/vitepressCn/theme-pre-next-link)
+- [Edit Link](/vitepressCn/theme-edit-link)
+- [Last Updated](/vitepressCn/theme-last-updated)
+- [Layout](/vitepressCn/theme-layout)
+- [Home Page](//theme-home-page)
+- [Team Page](/vitepressCn/theme-team-page)
+- [Footer](/vitepressCn/theme-footer)
+- [Search](/vitepressCn/theme-search)
+- [Carbon Ads](/vitepressCn/theme-carbon-ads)
 
 
 如果你没有找到你想要的功能，或者你需要创建自己的主题，你可以定制 VitePress 以满足自己的需求。在下面的章节中，我们将介绍定制 VitePress 主题的每种方式。

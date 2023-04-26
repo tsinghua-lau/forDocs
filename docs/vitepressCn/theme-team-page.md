@@ -74,7 +74,7 @@ Say hello to our awesome team.
 
 ## 创建一个完整的 Team Page
 
-你也可以创建一个完整的`Team Page`，而不是在`Doc Page`上添加团队成员，这与你创建[自定义首页](/vitepress-cn/theme-home-page)的方式相似。
+你也可以创建一个完整的`Team Page`，而不是在`Doc Page`上添加团队成员，这与你创建[自定义首页](/vitepressCn/theme-home-page)的方式相似。
 
 要创建一个`Team Page`，首先，创建一个新的`.md`文件。文件名并不重要，但这里让我们称之为`team.md`。在这个文件中，设置`frontmatter`选项`layout: page`，然后你可以使用`Team Page`组件组成你的页面结构。
 

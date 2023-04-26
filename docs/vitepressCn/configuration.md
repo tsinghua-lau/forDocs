@@ -49,6 +49,6 @@ You may also find all configuration references at [Configs](https://vitepress.vu
 
 在上面的例子中，该网站将有 VitePress 的 `title` 和 `description` 元标签，值分别为：`VitePress` 和 `Just playing around`。
 
-了解有关 VitePress 功能特性可以在[Theme 主题](/vitepress-cn/theme-introduction)中找到如何在此配置文件中配置特定功能。
+了解有关 VitePress 功能特性可以在[Theme 主题](/vitepressCn/theme-introduction)中找到如何在此配置文件中配置特定功能。
 
-你也可以在[Configs 配置](/vitepress-cn/config-introduction)中找到所有的配置参考。
+你也可以在[Configs 配置](/vitepressCn/config-introduction)中找到所有的配置参考。

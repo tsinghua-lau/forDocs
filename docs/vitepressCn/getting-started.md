@@ -148,10 +148,10 @@ When your documentation site starts to take shape, be sure to read the [deployme
 
 现在，你应该有一个基础功能的 VitePress 文档网站。但目前用户没有办法在网站上进行导航，因为它缺少例如我们在这个网站上的侧边栏菜单。
 
-要启用这些导航功能，我们必须在网站上添加一些配置。前往[配置指南](/vitepress-cn/configuration)，了解如何配置 VitePress。
+要启用这些导航功能，我们必须在网站上添加一些配置。前往[配置指南](/vitepressCn/configuration)，了解如何配置 VitePress。
 
-如果你想了解更多关于你在页面内可以做的事情，例如，编写 markdown 内容，或使用 Vue 组件，请查看文档的 "Markdown "部分。[Markdown 指南](/vitepress-cn/markdown)将是一个很好的起点。
+如果你想了解更多关于你在页面内可以做的事情，例如，编写 markdown 内容，或使用 Vue 组件，请查看文档的 "Markdown "部分。[Markdown 指南](/vitepressCn/markdown)将是一个很好的起点。
 
-如果你想知道如何定制网站的外观（主题），并了解 VitePress 的默认主题提供的功能，请访问[主题介绍](/vitepress-cn/theme-introduction)。
+如果你想知道如何定制网站的外观（主题），并了解 VitePress 的默认主题提供的功能，请访问[主题介绍](/vitepressCn/theme-introduction)。
 
-当你的文档网站准备上线时，一定要阅读[部署指南](/vitepress-cn/deploying)。
+当你的文档网站准备上线时，一定要阅读[部署指南](/vitepressCn/deploying)。
