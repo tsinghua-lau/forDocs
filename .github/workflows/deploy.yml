@@ -1,0 +1,26 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - dev
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: yarn
+      - run: yarn install
+
+      - name: Build
+        run: yarn docs:build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: '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'
+          publish_dir: docs/.vitepress/dist
