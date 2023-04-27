@@ -19,7 +19,7 @@ VitePress 自带的默认主题提供了许多开箱即用的功能。点击下�
 - [Edit Link](/vitepressCn/theme-edit-link)
 - [Last Updated](/vitepressCn/theme-last-updated)
 - [Layout](/vitepressCn/theme-layout)
-- [Home Page](//theme-home-page)
+- [Home Page](/vitepressCn/theme-home-page)
 - [Team Page](/vitepressCn/theme-team-page)
 - [Footer](/vitepressCn/theme-footer)
 - [Search](/vitepressCn/theme-search)
