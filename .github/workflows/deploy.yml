@@ -22,5 +22,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-index-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.MY_SECRET_KEY }}
           publish_dir: docs/.vitepress/dist
