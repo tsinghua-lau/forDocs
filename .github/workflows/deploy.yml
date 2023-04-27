@@ -20,7 +20,7 @@ jobs:
         run: yarn docs:build
 
       - name: Deploy
-        uses: peaceiris/actions-index-pages@v3
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.MY_SECRET_KEY }}
+          github_token: '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'
           publish_dir: docs/.vitepress/dist
