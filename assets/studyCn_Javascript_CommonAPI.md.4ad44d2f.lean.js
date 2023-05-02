@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,a as l}from"./app.e7cff7dd.js";const i=JSON.parse('{"title":"new","description":"","frontmatter":{},"headers":[],"relativePath":"studyCn/Javascript/CommonAPI.md"}'),p={name:"studyCn/Javascript/CommonAPI.md"},o=l("",20),e=[o];function t(c,r,F,y,D,A){return a(),n("div",null,e)}var d=s(p,[["render",t]]);export{i as __pageData,d as default};
