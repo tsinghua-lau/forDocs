@@ -23,6 +23,10 @@ export const nav: DefaultTheme.NavItem[] = [
     ],
   },
   {
+    text: "vitest",
+    items: [{ text: "Vitest", link: "/vitest/study01.md" }],
+  },
+  {
     text: "VitePress",
     link: "/vitepressCn/",
   },
