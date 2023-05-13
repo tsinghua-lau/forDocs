@@ -14,17 +14,19 @@ export const nav: DefaultTheme.NavItem[] = [
   },
   {
     text: "资源导航",
-    items: [{ text: "💰 学习资源", link: "/resourceNavigation/" }],
+    link: "/resourceNavigation/index.md",
   },
   {
     text: "代码片段",
-    items: [
-      { text: "Javascript", link: "/codeSnippet/Javascript/await-to-js.md" },
-    ],
+    link: "/codeSnippet/CSS/ellipsis.md",
+    // items: [
+    //   { text: "CSS", link: "/codeSnippet/CSS/ellipsis.md" },
+    //   { text: "Javascript", link: "/codeSnippet/Javascript/await-to-js.md" },
+    // ],
   },
   {
-    text: "vitest",
-    items: [{ text: "Vitest", link: "/vitest/study01.md" }],
+    text: "Vitest",
+    link: "/vitest/study01.md",
   },
   {
     text: "VitePress",
