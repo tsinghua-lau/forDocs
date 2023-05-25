@@ -47,6 +47,10 @@ export const webStudy: DefaultTheme.Sidebar | undefined = {
           link: "/studyCn/Javascript/eventLoop.md",
         },
         {
+          text: "promise并发控制",
+          link: "/studyCn/Javascript/promise.md",
+        },
+        {
           text: "常用API",
           link: "/studyCn/Javascript/CommonAPI.md",
         },
