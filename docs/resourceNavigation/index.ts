@@ -88,6 +88,7 @@ const conMaterial: navItem[] = [
   },
 ];
 
+
 const CSS: navItem[] = [
   {
     id: 1,
@@ -118,4 +119,14 @@ const CSS: navItem[] = [
     desc: "Rapidly build modern websites without ever leaving your HTML.",
   },
 ];
-export { tutorialUi, tutorialVue, conMaterial, CSS };
+
+const Toll: navItem[] = [
+  {
+    id: 1,
+    text: "图片转透明背景",
+    link: "https://www.aigei.com/bgremover",
+    icon: "https://cdn-sqn.aigei.com/assets/gei-tool-image-202305231106/assets/logo/logo.png",
+    desc: "免费在线抠图工具-透明背景",
+  },
+];
+export { tutorialUi, tutorialVue, conMaterial, CSS, Toll };

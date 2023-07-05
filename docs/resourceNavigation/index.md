@@ -1,5 +1,5 @@
 <script setup>
-  import {tutorialUi,tutorialVue,conMaterial,CSS} from './index.ts'
+  import {tutorialUi,tutorialVue,conMaterial,CSS,Toll} from './index.ts'
   import NavCard from '../public/components/NavCard.vue'
 </script>
 
@@ -28,4 +28,8 @@
 <NavCard :navData=conMaterial />
 </ClientOnly>
 
+## 小工具集合
 
+<ClientOnly>
+<NavCard :navData=Toll />
+</ClientOnly>
