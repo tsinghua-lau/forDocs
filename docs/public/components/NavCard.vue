@@ -45,12 +45,19 @@ defineProps<{
     border-radius: 10px;
     padding: 25px;
     width: 48%;
+    transition: all 0.3s ease-in-out;
     .icon {
       display: inline-block;
       vertical-align: sub;
       background-size: contain;
       width: 20px;
       height: 20px;
+    }
+    &:hover{
+     transform:translateY(-5px);
+      .text {
+        color: var(--vp-c-primary);
+      }
     }
   }
   .text {

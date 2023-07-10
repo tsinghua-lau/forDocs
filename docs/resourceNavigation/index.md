@@ -1,7 +1,12 @@
 <script setup>
-  import {tutorialUi,tutorialVue,conMaterial,CSS,Toll} from './index.ts'
+  import {tutorialUi,tutorialVue,conMaterial,CSS,Toll,Ai} from './index.ts'
   import NavCard from '../public/components/NavCard.vue'
 </script>
+
+## Ai相关
+<ClientOnly>
+<NavCard :navData=Ai />
+</ClientOnly> 
 
 ## CSS相关
 

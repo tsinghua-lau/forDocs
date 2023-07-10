@@ -1,5 +1,53 @@
 import type { navItem } from "./types";
 
+const Ai: navItem[] = [
+  {
+    id: 1,
+    text: "官方Chatgpt",
+    link: "https://chat.openai.com/",
+    icon: "https://static.vecteezy.com/system/resources/previews/018/764/128/original/chatgpt-logo-open-ai-icon-with-chatbot-artificial-intelligence-openai-chatbot-icon-chatgpt-openai-icon-artificial-intelligence-smart-ai-virtual-smart-assistant-bot-free-vector.jpg",
+    desc: "需要魔法开启",
+  },
+  {
+    id: 2,
+    text: "BAI Chat",
+    link: "https://chatbot.theb.ai/",
+    icon: "https://static.vecteezy.com/system/resources/previews/018/764/128/original/chatgpt-logo-open-ai-icon-with-chatbot-artificial-intelligence-openai-chatbot-icon-chatgpt-openai-icon-artificial-intelligence-smart-ai-virtual-smart-assistant-bot-free-vector.jpg",
+    desc: "需要魔法开启",
+  },
+  {
+    id: 3,
+    text: "Poe",
+    link: "https://poe.com/login?redirect_url=%2F",
+    icon: "https://static.vecteezy.com/system/resources/previews/018/764/128/original/chatgpt-logo-open-ai-icon-with-chatbot-artificial-intelligence-openai-chatbot-icon-chatgpt-openai-icon-artificial-intelligence-smart-ai-virtual-smart-assistant-bot-free-vector.jpg",
+    desc: "Fast, helpful AI chat",
+  },
+  {
+    id: 4,
+    text: "Hello Ai",
+    link: "https://free.anzz.top/zh",
+    icon: "https://static.vecteezy.com/system/resources/previews/018/764/128/original/chatgpt-logo-open-ai-icon-with-chatbot-artificial-intelligence-openai-chatbot-icon-chatgpt-openai-icon-artificial-intelligence-smart-ai-virtual-smart-assistant-bot-free-vector.jpg",
+    desc: "Hello Ai",
+  },
+  {
+    id: 5,
+    text: "Ai",
+    link: "https://ai.jiangly.com/",
+    icon: "https://static.vecteezy.com/system/resources/previews/018/764/128/original/chatgpt-logo-open-ai-icon-with-chatbot-artificial-intelligence-openai-chatbot-icon-chatgpt-openai-icon-artificial-intelligence-smart-ai-virtual-smart-assistant-bot-free-vector.jpg",
+    desc: "无需魔法",
+  },
+  {
+    id: 6,
+    text: "dawu",
+    link: "https://gpt.dawu.life/",
+    icon: "https://static.vecteezy.com/system/resources/previews/018/764/128/original/chatgpt-logo-open-ai-icon-with-chatbot-artificial-intelligence-openai-chatbot-icon-chatgpt-openai-icon-artificial-intelligence-smart-ai-virtual-smart-assistant-bot-free-vector.jpg",
+    desc: "需要关注公众号",
+  },
+  
+
+ 
+];
+
 const tutorialUi: navItem[] = [
   {
     id: 1,
@@ -128,5 +176,28 @@ const Toll: navItem[] = [
     icon: "https://cdn-sqn.aigei.com/assets/gei-tool-image-202305231106/assets/logo/logo.png",
     desc: "免费在线抠图工具-透明背景",
   },
+  {
+    id: 2,
+    text: "图片压缩",
+    link: "https://tinypng.com/",
+    icon: "https://tinypng.com/images/apple-touch-icon.png",
+    desc: "经典的图片压缩工具",
+  },
+  {
+    id: 3,
+    text: "png转svg",
+    link: "https://www.aconvert.com/cn/image/png-to-svg/",
+    icon: "http://tools.jb51.net/images/newn.gif",
+    desc: "PNG转SVG - 在线转换图像文件",
+  },
+  {
+    id: 4,
+    text: "css转less/sass/stylus",
+    link: "http://tools.jb51.net/code/css2less",
+    icon: "http://tools.jb51.net/images/newn.gif",
+    desc: "在线css转less/sass/stylus工具 css编辑器",
+  },
+  
+  
 ];
-export { tutorialUi, tutorialVue, conMaterial, CSS, Toll };
+export { tutorialUi, tutorialVue, conMaterial, CSS, Toll, Ai };
