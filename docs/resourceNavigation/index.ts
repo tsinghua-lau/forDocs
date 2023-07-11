@@ -197,6 +197,14 @@ const Toll: navItem[] = [
     icon: "http://tools.jb51.net/images/newn.gif",
     desc: "在线css转less/sass/stylus工具 css编辑器",
   },
+  {
+    id: 5,
+    text: "渐变色",
+    link: "https://webkul.github.io/coolhue/",
+    icon: "https://webkul.github.io/coolhue/",
+    desc: "在线css转less/sass/stylus工具 css编辑器",
+  },
+  
   
   
 ];
