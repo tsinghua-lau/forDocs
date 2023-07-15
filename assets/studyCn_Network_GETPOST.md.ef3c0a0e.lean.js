@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t,R as o}from"./chunks/framework.af956f17.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"studyCn/Network/GETPOST.md"}'),r={name:"studyCn/Network/GETPOST.md"},i=o("",15),s=[i];function l(n,h,c,T,d,p){return e(),t("div",null,s)}const u=a(r,[["render",l]]);export{_ as __pageData,u as default};

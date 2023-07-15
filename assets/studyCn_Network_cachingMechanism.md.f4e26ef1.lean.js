@@ -1,0 +1,1 @@
+import{_ as e,o,c as a,R as c}from"./chunks/framework.af956f17.js";const S=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"studyCn/Network/cachingMechanism.md"}'),i={name:"studyCn/Network/cachingMechanism.md"},d=c("",15),l=[d];function t(p,r,n,s,h,T){return o(),a("div",null,l)}const _=e(i,[["render",t]]);export{S as __pageData,_ as default};

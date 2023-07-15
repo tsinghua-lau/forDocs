@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,R as l}from"./chunks/framework.af956f17.js";const A=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"studyCn/form/install.md"}'),p={name:"studyCn/form/install.md"},o=l("",2),e=[o];function t(c,r,D,F,y,i){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{A as __pageData,d as default};
