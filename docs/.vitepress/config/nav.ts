@@ -18,7 +18,7 @@ export const nav: DefaultTheme.NavItem[] = [
   },
   {
     text: "记录",
-    link: "/deploymentRecord/index.md",
+    link: "/deploymentRecord/vitepress.md",
   },
   {
     text: "代码片段",
