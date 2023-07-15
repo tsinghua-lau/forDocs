@@ -17,6 +17,10 @@ export const nav: DefaultTheme.NavItem[] = [
     link: "/resourceNavigation/index.md",
   },
   {
+    text: "记录",
+    link: "/deploymentRecord/index.md",
+  },
+  {
     text: "代码片段",
     link: "/codeSnippet/CSS/ellipsis.md",
     // items: [

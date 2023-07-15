@@ -19,8 +19,8 @@
     "unocss": "^0.51.0",
     "unplugin-icons": "^0.16.0",
     "unplugin-vue-components": "^0.24.0",
-    "vitepress": "1.0.0-alpha.4",
-    "vue": "^3.2.37"
+    "vitepress": "1.0.0-alpha.69",
+    "vue": "^3.2.45"
   },
   "dependencies": {
     "medium-zoom": "^1.0.8",

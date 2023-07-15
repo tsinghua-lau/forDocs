@@ -9,7 +9,6 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    'Fa6Solid:heartPulse': typeof import('~icons/fa6-solid/heart-pulse')['default']
     HomePage: typeof import('./theme/components/HomePage.vue')['default']
     Hyperlinks: typeof import('./theme/components/Hyperlinks.vue')['default']
   }
