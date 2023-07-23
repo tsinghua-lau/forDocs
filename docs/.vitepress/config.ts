@@ -10,6 +10,8 @@ export default defineConfig({
   title: "ForDocs",
   // clientAppEnhanceFiles: ["./config/enhanceApp.ts"],
   description: "VitePress",
+  darkMode: true,
+  base: '/forDocs/',
   themeConfig: {
     nav,
     sidebar,
