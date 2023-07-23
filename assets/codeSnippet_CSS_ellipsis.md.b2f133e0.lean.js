@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as n,R as l}from"./chunks/framework.af956f17.js";const A=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"codeSnippet/CSS/ellipsis.md"}'),p={name:"codeSnippet/CSS/ellipsis.md"},o=l("",4),e=[o];function t(c,r,i,D,C,y){return a(),n("div",null,e)}const d=s(p,[["render",t]]);export{A as __pageData,d as default};

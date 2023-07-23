@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as r,R as n}from"./chunks/framework.af956f17.js";const T=JSON.parse('{"title":"HTTP状态码","description":"","frontmatter":{},"headers":[],"relativePath":"studyCn/Network/HTTPStatus.md"}'),l={name:"studyCn/Network/HTTPStatus.md"},d=n("",5),a=[d];function s(c,i,x,y,g,o){return e(),r("div",null,a)}const _=t(l,[["render",s]]);export{T as __pageData,_ as default};
