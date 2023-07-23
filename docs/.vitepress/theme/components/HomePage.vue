@@ -4,7 +4,7 @@
     <p class="info">
       Front-end learning document collection<br />简洁、优雅、全面
     </p>
-    <a class="link" href="/vitepressCn/">Get Started</a>
+    <a class="link" href="/forDocs/vitepressCn/">Get Started</a>
     <p class="miit">
       <a
         href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33038202004525"
