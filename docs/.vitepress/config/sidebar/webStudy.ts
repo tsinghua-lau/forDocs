@@ -61,8 +61,40 @@ export const webStudy: DefaultTheme.Sidebar | undefined = {
       collapsible: true,
       items: [
         {
-          text: "Vue列表key",
+          text: "v-for key",
           link: "/studyCn/Vue2/",
+        },
+        {
+          text: "v-if & v-show ",
+          link: "/studyCn/Vue2/if-show.md",
+        },
+        {
+          text: "v-for & v-if",
+          link: "/studyCn/Vue2/for-if.md",
+        },
+        {
+          text: "data对象",
+          link: "/studyCn/Vue2/data-object.md",
+        },
+        {
+          text: "computed & watch",
+          link: "/studyCn/Vue2/computed-watch.md",
+        },
+        {
+          text: "keep-alive",
+          link: "/studyCn/Vue2/keep-alive.md",
+        },
+        {
+          text: "router path & name",
+          link: "/studyCn/Vue2/path-name.md",
+        },
+        {
+          text: "npm 安装命令",
+          link: "/studyCn/Vue2/s-d-g.md",
+        },
+        {
+          text: "nextTick",
+          link: "/studyCn/Vue2/nextTick.md",
         },
       ],
     },

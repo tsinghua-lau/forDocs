@@ -1,4 +1,4 @@
-## Fusion-ui部署
+## Fusion Ui部署
 
 ### 报错一
 
@@ -139,8 +139,7 @@ input: chore:build ✖   subject may not be empty [subject-empty] ✖   type may
 :::
 
 ::: info 翻译
-无效的工作流文件：.github/workflows/deploy.yml#L2
-第2行的yaml语法有错误
+输入：chore:build ✖主题不能为空[subject-空] ✖类型不能为空[类型-空]
 :::
 
 解决：
