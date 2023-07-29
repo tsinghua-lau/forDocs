@@ -4,7 +4,6 @@ export const webStudy: DefaultTheme.Sidebar | undefined = {
   "/studyCn": [
     {
       text: "HTML",
-      collapsible: true,
       items: [
         {
           text: "介绍",
@@ -14,7 +13,6 @@ export const webStudy: DefaultTheme.Sidebar | undefined = {
     },
     {
       text: "CSS",
-      collapsible: true,
       items: [
         {
           text: "盒模型",
@@ -24,7 +22,7 @@ export const webStudy: DefaultTheme.Sidebar | undefined = {
     },
     {
       text: "Javascript",
-      collapsible: true,
+      
       items: [
         {
           text: "JS数据类型",
@@ -57,8 +55,15 @@ export const webStudy: DefaultTheme.Sidebar | undefined = {
       ],
     },
     {
+      text: "TypeScript",
+      items: [
+        {
+          text: "type & interface",
+          link: "/studyCn/TypeScript/index.md",
+        },]
+    },
+    {
       text: "Vue2",
-      collapsible: true,
       items: [
         {
           text: "v-for key",
@@ -100,7 +105,6 @@ export const webStudy: DefaultTheme.Sidebar | undefined = {
     },
     {
       text: "Vue3",
-      collapsible: true,
       items: [
         {
           text: "v-if与v-for",
@@ -110,7 +114,6 @@ export const webStudy: DefaultTheme.Sidebar | undefined = {
     },
     {
       text: "Network",
-      collapsible: true,
       items: [
         {
           text: "UDP 和 TCP 区别",

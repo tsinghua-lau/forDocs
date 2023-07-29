@@ -6,7 +6,8 @@ export const nav: DefaultTheme.NavItem[] = [
     items: [
       { text: "🧸 HTML", link: "/studyCn/HTML/" },
       { text: "🎯 CSS", link: "/studyCn/CSS/" },
-      { text: "🎃 Javascript", link: "/studyCn/Javascript/" },
+      { text: "🎃 JavasSript", link: "/studyCn/Javascript/" },
+      { text: "🐰 TypeScript", link: "/studyCn/TypeScript/" },
       { text: "🔨 Vue2", link: "/studyCn/Vue2/" },
       { text: "⚒️ Vue3", link: "/studyCn/Vue3/" },
       { text: "🪐 Network", link: "/studyCn/Network/" },
