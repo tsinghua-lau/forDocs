@@ -60,7 +60,11 @@ export const webStudy: DefaultTheme.Sidebar | undefined = {
         {
           text: "type & interface",
           link: "/studyCn/TypeScript/index.md",
-        },]
+        },
+        {
+          text: "never",
+          link: "/studyCn/TypeScript/never.md",
+        }]
     },
     {
       text: "Vue2",
@@ -100,6 +104,10 @@ export const webStudy: DefaultTheme.Sidebar | undefined = {
         {
           text: "nextTick",
           link: "/studyCn/Vue2/nextTick.md",
+        },
+        {
+          text: "Array",
+          link: "/studyCn/Vue2/Array.md",
         },
       ],
     },

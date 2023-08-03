@@ -111,4 +111,22 @@
     }
   }
 }
+.VPFooter {
+  position: absolute;
+  background-color: transparent !important;
+
+  .message,
+  .copyright {
+    color: #b1b3b8;
+  }
+}
+
+.medium-zoom-overlay {
+  z-index: 20;
+}
+
+.medium-zoom-image {
+  z-index: 21;
+}
+
 </style>
