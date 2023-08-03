@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,R as l}from"./chunks/framework.d95bcf44.js";const i=JSON.parse('{"title":"never 类型","description":"","frontmatter":{},"headers":[],"relativePath":"studyCn/TypeScript/never.md"}'),p={name:"studyCn/TypeScript/never.md"},o=l("",3),e=[o];function t(r,c,y,C,F,D){return n(),a("div",null,e)}const _=s(p,[["render",t]]);export{i as __pageData,_ as default};
