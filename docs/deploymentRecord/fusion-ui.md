@@ -1,6 +1,6 @@
 ## Fusion Ui部署
 
-### 报错一
+## 报错一
 
 ::: warning
 Unable to locate executable file: pnpm. Please verify either the file path exists or the file can be found within a directory specified by the PATH environment variable. Also check the file mode to verify the file is executable.
@@ -46,7 +46,7 @@ jobs:
           publish_dir: docs/.vitepress/dist
 ```
 
-### 报错二
+## 报错二
 
 ::: warning
  pnpm i && pnpm docs:build
@@ -93,7 +93,7 @@ ERR_PNPM_OUTDATED_LOCKFILE 无法使用“frozen-lockfile”安装，因为pnpm-
 
 运行 `pnpm install` 重新获取依赖
 
-### 报错三
+## 报错三
 
 ::: warning
 /usr/bin/git push origin gh-pages
@@ -116,7 +116,7 @@ Error: Action failed with "The process '/usr/bin/git' failed with exit code 128"
  进入项目的 Settings -> Secrets -> Actions -> general -> 勾选权限
  ![Alt text](image.png)
 
- ### 报错四
+ ## 报错四
 
  ::: warning
  Invalid workflow file: .github/workflows/deploy.yml#L2
@@ -133,7 +133,7 @@ Error: Action failed with "The process '/usr/bin/git' failed with exit code 128"
 
  ![Alt text](image-1.png)
 
-### 报错五
+## 报错五
 ::: warning
 input: chore:build ✖   subject may not be empty [subject-empty] ✖   type may not be empty [type-empty]
 :::
@@ -145,3 +145,34 @@ input: chore:build ✖   subject may not be empty [subject-empty] ✖   type may
 解决：
 
 提交信息格式错误，改为：`chore: build`
+
+## 配置 workspace
+
+*  根目录 ```package.json```:
+
+  ```ts
+  "dependencies": {
+    "@fusion-ui/components": "workspace:*",
+    "@fusion-ui/constants": "workspace:*",
+    "@fusion-ui/hooks": "workspace:*",
+    "@fusion-ui/utils": "workspace:*",
+    "@vue/shared": "^3.2.47",
+    "@vueuse/core": "^9.1.1",
+    "fusion-ui": "workspace:*",
+    "lodash-unified": "^1.0.3",
+    "vue": "^3.2.45"
+  },
+  ```
+
+* 每个子包下 ```package.json```:
+  配置
+  
+  ```ts
+  
+  ```
+
+* 根目录 ```pnpm i```
+ ![Alt text](image-2.png)
+  
+* 使用： ```import fusionUi from '@fusion-ui/hooks'```
+  
