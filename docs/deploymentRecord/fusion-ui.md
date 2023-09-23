@@ -175,4 +175,58 @@ input: chore:build ✖   subject may not be empty [subject-empty] ✖   type may
  ![Alt text](image-2.png)
   
 * 使用： ```import fusionUi from '@fusion-ui/hooks'```
+
+## vitest
+
+运行单元测试报错
+::: warning
+TypeError: window.matchMedia is not a function.
+:::
+
+根目录新建 ```vitestSetup.ts```
+  
+  ```ts
+import { vi } from 'vitest'
+
+Object.defineProperty(window, 'matchMedia', {
+  writable: true,
+  value: vi.fn().mockImplementation(query => ({
+    matches: false,
+    media: query,
+    onchange: null,
+    addListener: vi.fn(), // Deprecated
+    removeListener: vi.fn(), // Deprecated
+    addEventListener: vi.fn(),
+    removeEventListener: vi.fn(),
+    dispatchEvent: vi.fn(),
+  })),
+})
+
+```
+
+```vitest.config.ts``` 配置
+
+```ts
+export default defineConfig({
+ ...
+  test: {
+    watch: false,
+    clearMocks: true,
+    environment: 'jsdom',
+    transformMode: {
+      web: [/\.[jt]sx$/],
+    },
+
+    include: ['packages/components/**/__test__/*.spec.ts'],
+    deps: {
+      inline: ['@vue', '@vueuse', 'vue-demi', '@vue/composition-api'],
+    },
+    setupFiles: [resolve(__dirname, './vitestSetup.ts')],
+    reporters: 'dot',
+  },
+})
+
+
+```
+
   
