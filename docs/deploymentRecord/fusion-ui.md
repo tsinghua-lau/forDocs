@@ -146,6 +146,32 @@ input: chore:build ✖   subject may not be empty [subject-empty] ✖   type may
 
 提交信息格式错误，改为：`chore: build`
 
+## 报错六
+vitepress build error
+::: warning
+import { BookFilled, AccessibilityFilled, AutorenewFilled } from "fusion-ui-iconify";
+                     ^^^^^^^^^^^^^^^^^^^
+SyntaxError: Named export 'AccessibilityFilled' not found. The requested module 'fusion-ui-iconify' is a CommonJS module, which may not support all module.exports as named exports.
+CommonJS modules can always be imported via the default export, for example using:
+
+import pkg from 'fusion-ui-iconify';
+const { BookFilled, AccessibilityFilled, AutorenewFilled } = pkg;
+:::
+
+解决：
+配置 `docs` 下 ```vite.config.ts```:
+
+```ts
+export default defineConfig(() => {
+  return {
+    ---
+    ssr: {
+      noExternal: ['fusion-ui-iconify'],
+    },
+  }
+})
+```
+
 ## 配置 workspace
 
 *  根目录 ```package.json```:
@@ -165,16 +191,19 @@ input: chore:build ✖   subject may not be empty [subject-empty] ✖   type may
   ```
 
 * 每个子包下 ```package.json```:
-  配置
+  配置版本号
   
   ```ts
-  
+    "version": "0.0.1",
   ```
+  
 
 * 根目录 ```pnpm i```
  ![Alt text](image-2.png)
   
 * 使用： ```import fusionUi from '@fusion-ui/hooks'```
+
+
 
 ## vitest
 
